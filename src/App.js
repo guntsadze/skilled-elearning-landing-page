@@ -1,24 +1,49 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import CardComponent from "./CardComponent";
+
+const assets = {
+  hero: "assets/image-hero-desktop.png",
+  animation: "assets/icon-animation.svg",
+};
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="home">
+        <section className="section-1">
+          <div className="top">
+            <h2>skilled</h2>
+            <button>Get Started</button>
+          </div>
+          <header>
+            <div className="bottom">
+              <h1>Maximize skill, minimize budget</h1>
+              <p>
+                Our modern courses across a range of in-demand skills will give
+                you the knowledge you need to live the life you want.
+              </p>
+              <button>Get Started</button>
+            </div>
+            <img className="hero" src={assets.hero} />
+          </header>
+        </section>
+
+        <section className="section-2">
+          <div className="first-div">
+            <h2 className="h2">Check out our most popular courses</h2>
+          </div>
+          <CardComponent />
+        </section>
+      </div>
+      <footer>
+        <div className="footer">
+          <div className="footer-div">
+            <h2>skilled</h2>
+            <button>Get Started</button>
+          </div>
+        </div>
+      </footer>
+    </>
   );
 }
 
