@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/skilled-elearning-landing-page/static/css/main.a053e87d.css",
-    "main.js": "/skilled-elearning-landing-page/static/js/main.b602e584.js",
+    "main.js": "/skilled-elearning-landing-page/static/js/main.e473b4cd.js",
     "index.html": "/skilled-elearning-landing-page/index.html",
     "main.a053e87d.css.map": "/skilled-elearning-landing-page/static/css/main.a053e87d.css.map",
-    "main.b602e584.js.map": "/skilled-elearning-landing-page/static/js/main.b602e584.js.map"
+    "main.e473b4cd.js.map": "/skilled-elearning-landing-page/static/js/main.e473b4cd.js.map"
   },
   "entrypoints": [
     "static/css/main.a053e87d.css",
-    "static/js/main.b602e584.js"
+    "static/js/main.e473b4cd.js"
   ]
 }
