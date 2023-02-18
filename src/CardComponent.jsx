@@ -42,7 +42,7 @@ export default function CardComponent(props) {
     <>
       {DATA.map((card) => (
         <div className="card-container">
-          <img src={card.image} />
+          <img src={card.image} alt="img" />
           <div className="content">
             <h2>{card.title}</h2>
             <p>{card.content}</p>

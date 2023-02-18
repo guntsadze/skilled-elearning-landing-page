@@ -2,8 +2,7 @@ import "./App.css";
 import CardComponent from "./CardComponent";
 
 const assets = {
-  hero: "assets/image-hero-desktop.png",
-  animation: "assets/icon-animation.svg",
+  hero: "./assets/image-hero-desktop.png",
 };
 
 function App() {
@@ -24,7 +23,7 @@ function App() {
               </p>
               <button>Get Started</button>
             </div>
-            <img className="hero" src={assets.hero} />
+            <img className="hero" src={assets.hero} alt="img" />
           </header>
         </section>
 
