@@ -23,7 +23,7 @@ function App() {
               </p>
               <button>Get Started</button>
             </div>
-            <img className="hero" src={assets.hero} alt="img" />
+            {/* <img className="hero" src={assets.hero} alt="img" /> */}
           </header>
         </section>
 
