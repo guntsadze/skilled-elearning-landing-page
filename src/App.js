@@ -23,7 +23,7 @@ function App() {
               </p>
               <button>Get Started</button>
             </div>
-            {/* <img className="hero" src={assets.hero} alt="img" /> */}
+            <img className="hero" src={assets.hero} alt="img" />
           </header>
         </section>
 
@@ -31,7 +31,7 @@ function App() {
           <div className="first-div">
             <h2 className="h2">Check out our most popular courses</h2>
           </div>
-          <CardComponent />
+          {/* <CardComponent /> */}
         </section>
       </div>
       <footer>
